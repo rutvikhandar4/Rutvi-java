@@ -1,0 +1,4 @@
+SELECT DISTINCT Job 
+FROM employees 
+ORDER BY Job DESC;
+

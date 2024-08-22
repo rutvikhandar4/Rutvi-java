@@ -1,0 +1,9 @@
+CREATE TABLE EMP_LOG ( 
+Emp_ID INT(5) NOT NULL, 
+Log_date DATE, 
+New_salary INT(10), 
+ACTION VARCHAR(20) 
+); 
+DESCRIBE EMP_LOG;
+
+
