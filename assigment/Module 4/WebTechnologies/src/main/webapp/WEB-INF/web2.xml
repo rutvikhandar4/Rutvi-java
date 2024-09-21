@@ -1,0 +1,22 @@
+<web-app xmlns:xsi="(link unavailable)"
+         xmlns="(link unavailable)"
+         xsi:schemaLocation="(link unavailable)
+         (link unavailable)"
+         version="4.0">
+    <context-param>
+        <param-name>name</param-name>
+        <param-value>John Doe</param-value>
+    </context-param>
+    <context-param>
+        <param-name>age</param-name>
+        <param-value>30</param-value>
+    </context-param>
+    <servlet>
+        <servlet-name>MyServlet</servlet-name>
+        <servlet-class>com.servlet.MyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MyServlet</servlet-name>
+        <url-pattern>/MyServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
